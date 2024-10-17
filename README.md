@@ -106,6 +106,22 @@ int main() {
     return 0;
 }
 ```
+
+## Algorithm
+
+A stack is a linear data structure that follows the **Last In First Out (LIFO)** principle, meaning the last element added is the first one to be removed. The stack supports two primary operations: **push** (add an element) and **pop** (remove an element).
+
+### Steps:
+
+1. **Push (Adding an Element):**
+   - Check if the stack is full (overflow condition).
+   - If not full, increment the top pointer and add the element to the top of the stack.
+
+2. **Pop (Removing an Element):**
+   - Check if the stack is empty (underflow condition).
+   - If not empty, remove the element from the top and decrement the top pointer.
+     
+
 ## Conclusion 
 In this experiment we learned about Stack implementation using arrays with menu options for Push, Pop, Display, and Exit.
 
